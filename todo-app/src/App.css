@@ -1,0 +1,17 @@
+ /* *{
+    color: #EFFAFF;
+    color: #3EBFFF;
+    color: #60B4DD;
+    color: #FFC403;
+    color: #A2D8F3;
+    color: #C83DFF;
+}*/
+
+li {
+    overflow: hidden; /* Pour cacher le contenu qui déborde */
+    transition: height 0.3s; /* Animation de transition de la hauteur */
+  }
+  
+  li.expand {
+    height: auto; /* Hauteur automatique en fonction du contenu */
+  }
